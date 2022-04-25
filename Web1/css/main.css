@@ -1,0 +1,251 @@
+
+body {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 15px;
+	padding: 0;
+	margin: 0;
+}
+
+div, p, input, button, form, span, a, ul, li {
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 900;}
+ p {
+	line-height: 1.65em;
+}
+/* .logo{
+   margin-top: 70px; 
+ } */
+.aboutmain{
+   margin-top: 150px;
+} 
+.container{
+   width: 1170px;
+	margin: 0 auto;
+}
+.wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header{
+   color: azure;
+   background: rgba(77,188,252,1);
+background: -moz-linear-gradient(left, rgba(77,188,252,1) 0%, rgba(55,144,217,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(77,188,252,1)), color-stop(100%, rgba(55,144,217,1)));
+background: -webkit-linear-gradient(left, rgba(77,188,252,1) 0%, rgba(55,144,217,1) 100%);
+background: -o-linear-gradient(left, rgba(77,188,252,1) 0%, rgba(55,144,217,1) 100%);
+background: -ms-linear-gradient(left, rgba(77,188,252,1) 0%, rgba(55,144,217,1) 100%);
+background: linear-gradient(to right, rgba(77,188,252,1) 0%, rgba(55,144,217,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4dbcfc', endColorstr='#3790d9', GradientType=1 );
+padding-top: 65px;
+padding-bottom: 140px;
+}
+.title{
+   
+   width: 560px;
+   font-size: 30px;
+	margin-bottom: 55px;
+}
+.title span{
+   font-size: 60px;
+}
+.titleinfo{
+   margin-top: 50px;
+   margin-bottom: 45px;
+   font-family: 'Open Sans', sans-serif;
+   font-size: 16px;
+
+	height: 60px;
+} 
+	
+
+.btn {
+	font-family: 'Montserrat', sans-serif;
+	background: rgb(250, 204, 87);
+	color: rgb(3, 3, 3);
+	display: block;
+	width: 223px;
+	padding: 23px 28px;
+	text-align: center;
+	text-decoration: none;
+	transition: all 0.5s ease;
+   margin-bottom: 210px;
+}
+.photo {
+
+	margin: 0 avto;
+}
+
+.maintext {
+	padding-top: 110px;
+	padding-bottom: 110px;
+
+}
+.section-title {
+	font-size: 30px;
+   text-align: center;
+  
+}
+.wrapersection{
+   display: flex;
+	justify-content: space-between;
+}
+.imgsubtitle{
+   margin-top: 75px;
+   margin-left:  90px;
+   align-content: center;
+   margin-bottom: 35px;}
+.subtitle {
+   margin-top: 25px;
+   margin-bottom: 20px;
+  text-align: center;
+   font-size: 19px;
+}
+.mailinfo{
+   background: #ecf2f8;
+	padding-top: 110px;
+	padding-bottom: 100px;
+   align-content: center;
+
+}
+.form{
+   margin-top: 65px;
+
+
+}
+.form{
+   text-align: center;
+   margin-bottom: 5px; 
+
+
+}
+.input {
+width: 340px;
+	border: 1px solid #bfb8d1;
+	height: 47px;
+	padding-left: 25px; 
+   display: block;
+	margin: 0 auto 15px;
+}
+.btn-form{
+width: 340px;
+height: 55px;
+margin: 0 auto;
+background: #ffd429;
+display: block;
+border: 0 ;
+font-family: 'Montserrat', bold;
+}
+.footer {
+	padding: 65px 0px;
+	background: #164d7a;
+}
+
+.credits {
+	color: #d4cee3;
+	font-size: 14px;
+   font-family: 'Open Sans', regular;
+	text-align: center;
+
+}
+   
+@media screen and (max-width:1200px){
+h1{
+	width: auto;
+}
+.container{
+	max-width: 960px;}
+ .wrapper{
+	width: 460px;
+}
+.photo{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	width: 100%;
+}  
+	}
+
+@media screen and (max-width:992px){
+	.container{
+	max-width: 720px;
+
+}
+.wrapper{
+	
+	max-width: 100%;
+display: flex;
+flex-direction: column;
+ justify-content: center;
+ margin: auto;
+} 
+.photo{
+ display: blok;
+max-width: 100%;
+margin : 70px auto 0;
+} 
+.title{
+	max-width: 100%;
+}
+.titleinfo{
+	max-width: 100%;
+}
+ 
+} 
+	@media screen and (max-width:768px){
+	.container{
+	width: 540px;
+	
+}
+.title{
+	max-width: 100%;
+}
+.titleinfo{
+	max-width: 100%;
+}
+.wrapper{
+	flex-direction: column;
+}
+.wrapersection{
+	flex-direction: column;
+	/* justify-content:space-between; */
+	width: 100%;
+	height: 100%;
+}
+ 
+} 
+	@media screen and (max-width:576px){
+	.container{
+	max-width: 90%;
+	
+}
+.form{
+	width: 90%;
+}
+.title{
+	max-width: 100%;
+}
+.titleinfo{
+	max-width: 100%;
+}
+.wrapper{
+	flex-direction: column;
+}
+.aboutmain{
+	width: auto;
+}
+.photo{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	width: 100%;
+}  
+} 
+	
+	
